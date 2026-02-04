@@ -9,3 +9,173 @@
     --subtitle-font:"Kaushan Script", san-serif;
 }
 
+body {
+    font-family: var(--main-font);
+}
+
+.container {
+    width: 1168px;
+    margin: 0 auto;
+}
+
+.header-logo {
+    color: var(--color-brand);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.header-link {
+    color: var(--color-brand);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header-link:hover {
+    color: var(--color-second-accent);
+}
+
+.services-subtitle {
+    color: var(--color-text-title);
+    font-family:var(--subtitle-font);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.services-title {
+    color: var(--color-text-title);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+svg {
+    width: 37.0px;
+    height: 37.0px;
+}
+
+.services-name {
+    color: var(--color-text-title);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.services-text {
+    color: var(--color-text);
+    font-family: var(--second-font);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.team-subtitle {
+    color: var(--color-text-title);
+    font-family:var(--subtitle-font);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.team-title {
+    color: var(--color-text-title);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.team-text {
+    color: var(--color-text);
+    text-align: center;
+    font-family:var(--second-font);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.team-img {
+    width: 380.0px;
+    height: 470.0px;
+}
+
+.team-name {
+    color: var(--color-text-title);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.team-job {
+    color: var(--color-text);
+    text-align: center;
+    font-family: var(--second-font);
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.footer-copywrite {
+    color: var(--color-text-title);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-link {
+    color: var(--color-second-accent);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-input {
+    width: 230.0px;
+    height: 39.0px;
+    border: 1 px solid;
+}
+
+.footer-input,
+ text-area {
+    color: var(--color-text);
+    font-family: var(--second-font);
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: normal;
+} 
+
+.footer-button {
+    color: var(--color-text-btn);
+    background-color: var(--color-brand);
+    width: 150.0px;
+    height: 40.0px;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-variant: all-small-caps;
+    cursor: pointer;
+    border: none;
+}
+
+.footer-button:active {
+  transform: scale(0.97);
+}
