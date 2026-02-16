@@ -18,12 +18,27 @@ body {
     margin: 0 auto;
 }
 
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    margin-bottom: 69px;
+}
+
 .header-logo {
     color: var(--color-brand);
     font-size: 30px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+.header-list {
+    display: flex;
+    gap: 55px;
 }
 
 .header-link {
@@ -42,17 +57,28 @@ body {
     color: var(--color-text-title);
     font-family:var(--subtitle-font);
     font-size: 24px;
+    text-align: center;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-bottom: 20px;
 }
 
 .services-title {
     color: var(--color-text-title);
     font-size: 30px;
+    text-align: center;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-bottom: 109px;
+}
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    flex-basis: calc((100% - 140px) / 3);
 }
 
 svg {
@@ -66,6 +92,7 @@ svg {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-bottom: 20px;
 }
 
 .services-text {
